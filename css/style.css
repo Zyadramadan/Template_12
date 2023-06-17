@@ -2181,6 +2181,9 @@ input:focus + .icon i {
     .big-container > .left {
     width: 100%;
   }
+    .big-container > .right {
+      width: 100%;
+    }
   .big-container > .right .type {
     flex-direction: column;
     gap: 15px;
