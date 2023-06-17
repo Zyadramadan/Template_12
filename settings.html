@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Settings</title>
+  </head>
+  <body>
+    <!-- Start Page Box -->
+    <div class="page-box">
+      <!-- Start Sidebar -->
+      <div class="side-bar">
+        <div class="container">
+          <div class="heading">
+            <h1>Zyad</h1>
+          </div>
+          <div class="pages">
+            <div class="link">
+              <a href="index.html">
+                <i class="fa-solid fa-chart-bar"></i>
+                <h3>Dashboard</h3>
+              </a>
+            </div>
+            <div class="link active">
+              <a href="settings.html">
+                <i class="fa-solid fa-gear"></i>
+                <h3>Settings</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="profile.html">
+                <i class="fa-regular fa-user"></i>
+                <h3>Profile</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="projects.html">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h3>Projects</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="courses.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Courses</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="friends.html">
+                <i class="fa-regular fa-circle-user"></i>
+                <h3>Friends</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="files.html">
+                <i class="fa-regular fa-file"></i>
+                <h3>Files</h3>
+              </a>
+            </div>
+            <div class="link">
+              <a href="plans.html">
+                <i class="fa-regular fa-credit-card"></i>
+                <h3>Plans</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+      <!-- Start Content Section -->
+      <section class="content">
+        <div class="container">
+          <div class="header">
+            <div class="search">
+              <i class="fa fa-magnifying-glass"></i>
+              <input type="search" placeholder="Type Keyword" />
+            </div>
+            <div class="data">
+              <i class="fa-regular fa-bell"></i>
+              <img src="images/avatar.png" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <div class="heading">
+              <h1>Settings</h1>
+            </div>
+            <div class="site-control">
+              <h3 class="big-heading">Site Control</h3>
+              <h4 class="sm-heading">
+                Control The Website If There Is Maintenance
+              </h4>
+              <div class="line">
+                <div class="text">
+                  <h3>Website Control</h3>
+                  <h4 class="sm-heading">
+                    Open/Close Website And Type The Reason
+                  </h4>
+                </div>
+                <div class="switch">
+                  <input type="checkbox" class="check" checked />
+                </div>
+              </div>
+              <textarea
+                cols="30"
+                rows="10"
+                placeholder="Close Message Content"
+              ></textarea>
+            </div>
+            <div class="general-info">
+              <h3 class="big-heading">General Info</h3>
+              <h4 class="sm-heading head">
+                General Information About Your Account
+              </h4>
+              <h4 class="sm-heading">
+                <label for="first-name"> First Name </label><br />
+              </h4>
+              <input type="text" placeholder="Fitst Name" /><br />
+              <h4 class="sm-heading">
+                <label for="last-name"> Last Name </label><br />
+              </h4>
+              <input type="text" placeholder="Last Name" /><br />
+              <h4 class="sm-heading"><label for="email">Email</label><br /></h4>
+              <div class="line">
+                <input
+                  type="email"
+                  placeholder="z@gmail.com"
+                  readonly
+                  disabled
+                />
+                <a href="#">Change</a>
+              </div>
+            </div>
+            <div class="security-info">
+              <h3 class="big-heading">Security Info</h3>
+              <h4 class="sm-heading">
+                Security Information About Your Account
+              </h4>
+              <div class="password">
+                <div class="text">
+                  <h3>Password</h3>
+                  <h4 class="sm-heading">Last Change On 25/10/2021</h4>
+                </div>
+                <button class="one">Change</button>
+              </div>
+              <div class="factor">
+                <div class="text">
+                  <h3>Two-Factor Authentication</h3>
+                  <h4 class="sm-heading">Enable/Disable The Feature</h4>
+                </div>
+                <div class="switch">
+                  <input type="checkbox" class="check" checked />
+                </div>
+              </div>
+              <div class="devices">
+                <div class="text">
+                  <h3>Devices</h3>
+                  <h4 class="sm-heading">Check The Login Devices List</h4>
+                </div>
+                <button class="two">Devices</button>
+              </div>
+            </div>
+            <div class="social-info">
+              <h3 class="big-heading">Social Info</h3>
+              <h4 class="sm-heading">Social Media Information</h4>
+              <div class="twitter">
+                <input type="text" placeholder="Twitter Username" />
+                <div class="icon">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+              <div class="twitter">
+                <input type="text" placeholder="Facebook Username" />
+                <div class="icon">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+              </div>
+              <div class="twitter">
+                <input type="text" placeholder="Linkedin Username" />
+                <div class="icon">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+              <div class="twitter">
+                <input type="text" placeholder="Youtube Username" />
+                <div class="icon">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+            <div class="widgets-control">
+              <h3 class="big-heading">Widgets Control</h3>
+              <h4 class="sm-heading">Show/Hide Widgets</h4>
+              <div class="input">
+                <input type="checkbox" id="input1" checked />
+                <label for="input1">Quick Draft</label>
+              </div>
+              <div class="input">
+                <input type="checkbox" id="input2" checked />
+                <label for="input2">Yearly Targets</label>
+              </div>
+              <div class="input">
+                <input type="checkbox" id="input3" checked />
+                <label for="input3">Tickets Statistics</label>
+              </div>
+              <div class="input">
+                <input type="checkbox" id="input4" checked />
+                <label for="input4">Latest News</label>
+              </div>
+              <div class="input">
+                <input type="checkbox" id="input5" />
+                <label for="input5">Latest Tasks</label>
+              </div>
+              <div class="input">
+                <input type="checkbox" id="input6" checked />
+                <label for="input6">Top Search Items</label>
+              </div>
+            </div>
+            <div class="backup-manager">
+              <h3 class="big-heading">Backup Manager</h3>
+              <h4 class="sm-heading">Control Backup Time And Location</h4>
+              <div class="input">
+                <input type="radio" id="radio1" name="a" checked />
+                <label for="radio1">Daily</label>
+              </div>
+              <div class="input">
+                <input type="radio" id="radio2" name="a" />
+                <label for="radio2">Weekly</label>
+              </div>
+              <div class="input">
+                <input type="radio" id="radio3" name="a" />
+                <label for="radio3">Monthly</label>
+              </div>
+              <div class="footer">
+                <input type="radio" name="b" />
+                <input type="radio" name="b" checked />
+                <input type="radio" name="b" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End Content Section -->
+    <!-- End Page Box -->
+  </body>
+</html>
