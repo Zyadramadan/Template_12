@@ -1141,7 +1141,7 @@ section {
   border-collapse: collapse;
 }
 .projects table {
-  width: 100%;
+  width: 1000px;
 }
 .projects .table-container {
   overflow: auto;
@@ -1190,6 +1190,11 @@ section {
   position: relative;
   margin-left: -20px;
   border: 3px solid white;
+}
+@media (min-width: 1200px) {
+  .projects table {
+    width: 100%;
+  }
 }
 /* End Content Section */
 /* End Page Box */
