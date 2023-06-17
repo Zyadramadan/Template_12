@@ -1141,7 +1141,7 @@ section {
   border-collapse: collapse;
 }
 .projects table {
-  width: 1000px;
+  width: 100%;
 }
 .projects .table-container {
   overflow: auto;
